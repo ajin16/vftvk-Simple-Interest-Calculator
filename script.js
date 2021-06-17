@@ -11,20 +11,6 @@ function compute()
         return false;
     }
 
-    if(rate.value == "")
-    {
-        alert("Please enter the Rate");
-        rate.focus();
-        return false;
-    }
-
-    if(years.value == "")
-    {
-        alert("Please enter the Time in years");
-        year.focus();
-        return false;
-    }
-
     var interest = principal * years * rate /100;
     var year = new Date().getFullYear()+parseInt(years);
     document.getElementById("result").innerText=interest;
