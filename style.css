@@ -1,4 +1,22 @@
-body {background-color:tan;}
-h1{color:green;}
+body 
+{
+    background-color:black;font-family:arial;color:white
+}
 
+h1
+{
+    color:grey;font-family:verdana;
+}
 
+div
+{
+    margin:auto;
+}
+
+.maindiv 
+{
+    background-color: rgb(0, 0, 0);font-family:Arial;color:rgb(255, 255, 255);
+    width: 300px;padding-top:  20px;
+    border: 2px solid red;
+    border-radius: 25px;
+}
